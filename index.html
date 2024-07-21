@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E Cart</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <main>
+        <h1>Cart</h1>
+        <div id="cart">
+            <div class="item">
+                <p>Magic Globe</p>
+                <img src="./assets/magic_globe.png" alt="Magic Globe">
+                <p>Needs for a magical efforts to travel around the magic worlds. Price: <span class="price">100</span> Galleons</p>
+            </div>
+            <div class="item">
+                <p>Magic Stick</p>
+                <img src="./assets/magic_stick.png" alt="Magic Stick">
+                <p>Bild your one magical world! Price: <span class="price">200</span> Galleons</p>
+            </div>
+            <div class="item">
+                <p>Magic Crystal</p>
+                <img src="./assets/crystal.png" alt="Magic Crystal">
+                <p>Can either be magical or amplify magic. Price: <span class="price">300</span> Galleons</p>
+            </div>
+            <div class="item">
+                <p>Magic Book</p>
+                <img src="./assets/book.png" alt="Magic Book">
+                <p>Use magic sources from specific living creatures, like dragons. Price: <span class="price">400</span> Galleons</p>
+            </div>
+        </div>
+        <p>The total cost: <span id="total-price">0</span> Galleons</p>
+        <button id="apply-coupon">Use the coupon 20%</button>
+    </main>
+<script src="./index.js"></script>
+</body>
+</html>
